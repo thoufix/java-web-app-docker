@@ -24,7 +24,7 @@
 		<h1>${title}</h1>
 		<p>
 			<c:if test="${not empty msg}">
-				Hello ${msg}
+				Howdy! ${msg}
 			</c:if>
 
 			<c:if test="${empty msg}">
